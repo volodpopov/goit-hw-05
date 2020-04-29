@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="page-header">
+    <header class="container page-header">
       <h1 class="visually-hidden">Paris tours collection</h1>
-      <nav class="page-nav clearfix">
+      <nav class="clearfix">
         <a class="site-logo" href="#">mart</a>
         <ul class="site-navigation clearfix">
           <li><a href="#">home</a></li>
@@ -27,8 +27,8 @@
       </nav>
     </header>
     <main>
-      <div class="conteiner-for-slider">
-        <div class="slider">
+      <div class="slider">
+        <div class="slider-img-wrapper">
           <img
             src="./images/slider.png"
             alt="four girls"
@@ -42,198 +42,304 @@
         </div>
         <div class="arrows-wrapper clearfix">
           <button class="left-button">
-            <img src="./images/left-arrow.png" alt="previous" />
+            <img
+              src="./images/left-arrow.png"
+              alt="previous"
+              width="104"
+              height="104"
+            />
           </button>
           <button class="right-button">
-            <img src="./images/right-arrow.png" alt="next" />
+            <img
+              src="./images/right-arrow.png"
+              alt="next"
+              width="104"
+              height="104"
+            />
           </button>
         </div>
       </div>
-      <div class="container-for-collection">
-        <section class="collection">
+      <div class="collection">
+        <section class="container">
           <h3 class="header-collection">new collection</h3>
           <ul class="catalogue-collection clearfix">
             <li class="list-collection">
-              <a href="#">
+              <div class="img-collection-wrapper">
                 <img
                   src="./images/blue.png"
                   alt="blue tshirt"
                   width="255"
                   height="282"
                 />
-              </a>
+                <div class="overlay">
+                  <ul class="overlay_list clearfix">
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_heart"
+                      >
+                        <img
+                          src="../images/heart.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_arrows"
+                      >
+                        <img
+                          src="../images/arrows.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_clock"
+                      >
+                        <img
+                          src="../images/clock.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_basket"
+                      >
+                        <img
+                          src="../images/basket.png"
+                          alt="previous"
+                          width="166"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <a href="#">
                 <p>
                   <span class="product-name">blue tshirt</span>
                   <span class="product-price">&#36;26</span>
                 </p>
               </a>
-              <div class="overlay">
-                <ul class="overlay_list clearfix">
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_heart"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_arrows"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_clock"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_basket"
-                    ></a>
-                  </li>
-                </ul>
-              </div>
             </li>
             <li class="list-collection">
-              <a href="#">
+              <div class="img-collection-wrapper">
                 <img
                   src="./images/woman.png"
                   alt="woman shirt"
                   width="255"
                   height="282"
                 />
-              </a>
+                <div class="overlay">
+                  <ul class="overlay_list clearfix">
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_heart"
+                      >
+                        <img
+                          src="../images/heart.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_arrows"
+                      >
+                        <img
+                          src="../images/arrows.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_clock"
+                      >
+                        <img
+                          src="../images/clock.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_basket"
+                      >
+                        <img
+                          src="../images/basket.png"
+                          alt="previous"
+                          width="166"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <a href="#">
                 <p>
                   <span class="product-name">woman shirt</span>
                   <span class="product-price">&#36;31</span>
                 </p>
               </a>
-              <div class="overlay">
-                <ul class="overlay_list clearfix">
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_heart"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_arrows"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_clock"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_basket"
-                    ></a>
-                  </li>
-                </ul>
-              </div>
             </li>
             <li class="list-collection">
-              <a href="#">
+              <div class="img-collection-wrapper">
                 <img
                   src="./images/yellow.png"
                   alt="yellow tshirt"
                   width="255"
                   height="282"
                 />
-              </a>
+                <div class="overlay">
+                  <ul class="overlay_list clearfix">
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_heart"
+                      >
+                        <img
+                          src="../images/heart.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_arrows"
+                      >
+                        <img
+                          src="../images/arrows.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_clock"
+                      >
+                        <img
+                          src="../images/clock.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_basket"
+                      >
+                        <img
+                          src="../images/basket.png"
+                          alt="previous"
+                          width="166"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <a href="#">
                 <p>
                   <span class="product-name">yellow tshirt</span>
                   <span class="product-price">&#36;21</span>
                 </p>
               </a>
-              <div class="overlay">
-                <ul class="overlay_list clearfix">
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_heart"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_arrows"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_clock"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_basket"
-                    ></a>
-                  </li>
-                </ul>
-              </div>
             </li>
             <li class="list-collection">
-              <a href="#">
+              <div class="img-collection-wrapper">
                 <img
                   src="./images/cool.png"
                   alt="cool lingerie"
                   width="255"
                   height="282"
                 />
-              </a>
+                <div class="overlay">
+                  <ul class="overlay_list clearfix">
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_heart"
+                      >
+                        <img
+                          src="../images/heart.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_arrows"
+                      >
+                        <img
+                          src="../images/arrows.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_clock"
+                      >
+                        <img
+                          src="../images/clock.png"
+                          alt="previous"
+                          width="50"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                    <li class="overlay_list-item">
+                      <button
+                        class="overlay_list-item-button overlay_list-item-button_basket"
+                      >
+                        <img
+                          src="../images/basket.png"
+                          alt="previous"
+                          width="166"
+                          height="50"
+                        />
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
               <a href="#">
                 <p>
                   <span class="product-name">cool lingerie</span>
                   <span class="product-price">&#36;56</span>
                 </p>
               </a>
-              <div class="overlay">
-                <ul class="overlay_list clearfix">
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_heart"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_arrows"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_clock"
-                    ></a>
-                  </li>
-                  <li class="overlay_list-item">
-                    <a
-                      href="#"
-                      class="overlay_list-item-link overlay_list-item-link_basket"
-                    ></a>
-                  </li>
-                </ul>
-              </div>
             </li>
           </ul>
         </section>
       </div>
     </main>
-    <footer class="container-for-footer">
+    <footer>
       <p>
         All Rights Reserved &copy; Dokan | Designed <a href="#">ThemenGraph</a>
       </p>
