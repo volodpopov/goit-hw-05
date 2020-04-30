@@ -34,7 +34,7 @@ ul {
 
 .page-header {
   padding-top: 38px;
-  padding-bottom: 100px;
+  padding-bottom: 32px;
 }
 
 /* HIDEN H1 */
@@ -259,6 +259,30 @@ h2 {
   background-position: center;
   background-color: transparent;
   cursor: pointer;
+}
+.overlay_list-item-button_basket {
+  background-image: url(/images/basket.png);
+  background-repeat: no-repeat;
+  width: 166px;
+  height: 50px;
+}
+.overlay_list-item-button_clock {
+  background-image: url(/images/clock.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.overlay_list-item-button_arrows {
+  background-image: url(/images/arrows.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.overlay_list-item-button_heart {
+  background-image: url(/images/heart.png);
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
 }
 .overlay_list-item {
   float: left;
