@@ -261,25 +261,25 @@ h2 {
   cursor: pointer;
 }
 .overlay_list-item-button_basket {
-  background-image: url(/images/basket.png);
+  background-image: url(./images/basket.png);
   background-repeat: no-repeat;
   width: 166px;
   height: 50px;
 }
 .overlay_list-item-button_clock {
-  background-image: url(/images/clock.png);
+  background-image: url(./images/clock.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
 }
 .overlay_list-item-button_arrows {
-  background-image: url(/images/arrows.png);
+  background-image: url(./images/arrows.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
 }
 .overlay_list-item-button_heart {
-  background-image: url(/images/heart.png);
+  background-image: url(./images/heart.png);
   background-repeat: no-repeat;
   width: 50px;
   height: 50px;
